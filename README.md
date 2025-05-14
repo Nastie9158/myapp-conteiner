@@ -20,3 +20,7 @@ docker run -d --name app --network myapp-network -e REDIS_HOST=redis yourname-fl
 
 # Запустить Nginx
 docker run -d --name web -p 80:80 --network myapp-network yourname-nginx
+
+
+Ссылки на образы: https://hub.docker.com/repository/docker/nastie/myapp-app/general
+https://hub.docker.com/repository/docker/nastie/myapp-web/general
